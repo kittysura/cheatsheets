@@ -1,20 +1,20 @@
 ## LINUX COMMAND TUTORIAL CHEETSHEET
 
-- `cd` = change directory (changes or navigates dir)
-- `ls`	= list contents
-- `rm`	= remove contents
+- `cd`		= change directory (changes or navigates dir)
+- `ls`		= list contents
+- `rm`		= remove contents
 - `rmdir`	= removes empty dir
-- `cp`	= copy files or dir
-- `mv`	= move or rename files or dir
-- `pwd`	= print working dir
+- `cp`		= copy files or dir
+- `mv`		= move or rename files or dir
+- `pwd`		= print working dir
 - `mkdir`	= make dir
 - `nano`	= text editor
-- `vim`	= text editor
-- `ssh`	= secure shell (used for connecting to remote server securely)
+- `vim`		= text editor
+- `ssh`		= secure shell (used for connecting to remote server securely)
 - `sudo`	= super user do (used for granting root permission)
-- `cat`	= concatonate (used for reading a file)
+- `cat`		= concatonate (used for reading a file)
 - `echo`	= prints given text in terminal
-- `tee`	= writes to a file
+- `tee`		= writes to a file
 - `grep`	= search using reguler expression key-words
 - `less`	= comfortably read large text file or an output with lots of lines
 - `find`	= used for searching for contents
@@ -22,6 +22,8 @@
 - `tail`	= used for outputting certain amount of lines from the bottom of an output or text
 - `uptime`	= to check how long a system has been up
 - `date`	= to check current date and time
+- `htop`	= to check system resource and tasks info
+- `free`	= checks memory availability
 
 ### How to install a package in Archlinux?
 
