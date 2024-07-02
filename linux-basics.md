@@ -69,3 +69,4 @@ A. Use `tar -caf archivename.tar directory`
 ### How to extract an archive?
 
 A. Use `tar -xaf archivename.tar`
+
