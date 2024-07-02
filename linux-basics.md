@@ -52,7 +52,7 @@ A. Flags are specific instructions added to a command. For ex: `pacman -S` where
 
 ### How to sort listed file using ls?
 
-A. Use `ls --sort name`
+A. Use `ls --sort type/time/extension/version/width/none`
 
 ### How to make a file?
 
