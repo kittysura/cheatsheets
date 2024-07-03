@@ -27,7 +27,11 @@
 - `df`		= used for checking storage info
 - `lsblk`	= lists connected disks and partitions
 - `adduser`	= used for adding new users
+- `groupadd`	= used for adding new groups
 - `passwd`	= used for assigning or modifying user password
+- `chown`	= modify ownership of files and directories
+- `chmod`	= modify file or directory permissions
+- `usermod`	= modify users
 
 ### How to install a package in Archlinux?
 
@@ -36,6 +40,26 @@ A. Use `sudo pacman -S package-name`
 ### How to uninstall or remove a package in Archlinux?
 
 A. Use `sudo pacman -R package-name`
+
+### How to install a package in Fedora Linux?
+
+A. Use `sudo dnf install package-name`
+
+### How to search packages in Fedora Linux repositories?
+
+A. Use `sudo dnf search package-name`
+
+### How to remove an installed package in Fedora Linux?
+
+A. Use `sudo dnf remove package-name`
+
+### How to list installed packages in Fedora Linux?
+
+A. Use `sudo dnf list --installed`
+
+### How to find a specific installed package in Fedora Linux?
+
+A. Use `sudo dnf list --installed | grep keyword`
 
 ### How to redirect console output to a file?
 
