@@ -24,6 +24,8 @@
 - `date`	= to check current date and time
 - `htop`	= to check system resource and tasks info
 - `free`	= checks memory availability
+- `df`		= used for checking storage info
+- `lsblk`	= lists connected disks and partitions
 
 ### How to install a package in Archlinux?
 
@@ -70,3 +72,10 @@ A. Use `tar -caf archivename.tar directory`
 
 A. Use `tar -xaf archivename.tar`
 
+### How to check available memory?
+
+A. Use `free -h` 
+
+### How to check available storage space?
+
+A. Use `df -h`
