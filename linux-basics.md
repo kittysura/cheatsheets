@@ -26,6 +26,8 @@
 - `free`	= checks memory availability
 - `df`		= used for checking storage info
 - `lsblk`	= lists connected disks and partitions
+- `adduser`	= used for adding new users
+- `passwd`	= used for assigning or modifying user password
 
 ### How to install a package in Archlinux?
 
@@ -79,3 +81,11 @@ A. Use `free -h`
 ### How to check available storage space?
 
 A. Use `df -h`
+
+### How to add a new user?
+
+A. Use `adduser -m username`
+
+### How to assign password to a new user?
+
+A. Use `passwd username`
